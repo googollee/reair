@@ -1,0 +1,114 @@
+(footprint "TerminalBlock_KF350-3.5-3P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Cixi Kefa KF350-3.5-3P, 3 位螺丝接线端子, 间距 3.5 mm, 插件, 数据手册 KF350-3.50")
+	(tags "screw terminal 3.5mm KF350")
+	(property "Reference" "REF**"
+		(at 3.5 -5.2 0)
+		(layer "F.SilkS")
+		(uuid "ae00d636-9370-410d-a41e-14748f6466e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KF350-3.5-3P"
+		(at 3.5 5.2 0)
+		(layer "F.Fab")
+		(uuid "346792b1-6708-465d-89dc-faffd4b5f45b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0129ee3-5947-46cb-b585-e1ee513184c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "821c4e75-cc71-453a-806d-8f4f54abc79b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.75 -3.5)
+		(end 8.75 3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dd889e08-180d-4310-a9bd-e7c1870c3389")
+	)
+	(fp_rect
+		(start -2 -3.75)
+		(end 9 3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "93d0d045-adc1-48df-af12-73752b7f37db")
+	)
+	(fp_rect
+		(start -1.75 -3.5)
+		(end 8.75 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b4614f4f-b3ca-4bdf-8567-5efc1fbc9c70")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e2a5ad8-2cbb-4e4f-95b2-0614eaed5551")
+	)
+	(pad "2" thru_hole circle
+		(at 3.5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2819afb-8354-4c67-b83f-fdf1b412fc32")
+	)
+	(pad "3" thru_hole circle
+		(at 7 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd29424d-2083-4f36-b435-aec0fa2e32ef")
+	)
+	(embedded_fonts no)
+)

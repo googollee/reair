@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "reair") (type "KiCad") (uri "${KIPRJMOD}/reair.pretty") (options "") (descr "ReAir 自建封装"))
+)

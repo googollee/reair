@@ -1,0 +1,9 @@
+# gen_commissioning.py / extract_test_attestation.py 的依赖(由 setup.sh 安装到项目 .venv)
+PyYAML
+cryptography
+bitarray
+ecdsa
+python-stdnum
+stringcase
+esp-idf-nvs-partition-gen
+esp-secure-cert-tool

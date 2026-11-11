@@ -1,0 +1,137 @@
+(footprint "BarrelJack_XKB_DC-005-5A-2.5-SMT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "XKB DC-005-5A-2.5-SMT, 5.5 x 2.5 mm 圆口插座, 贴片卧式, 数据手册 PCB LAYOUT; 原点为 1 号定位孔 (Ø1.6)，插头从 -x 端插入（Ø1.2 定位柱一端，Ø1.6 孔），+x 端封闭")
+	(tags "barrel jack DC power SMT XKB")
+	(property "Reference" "REF**"
+		(at 7 -6.8 0)
+		(layer "F.SilkS")
+		(uuid "f4794bcb-f57f-4e8d-8d58-ee5cc76384a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DC-005-5A-2.5-SMT"
+		(at 7 6.8 0)
+		(layer "F.Fab")
+		(uuid "0b43a45f-60af-4a48-af5b-b7620cb12d4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "163fbc60-bfb6-4ab2-8c1c-1b2c30ad29a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47680f95-af93-4ea2-abad-7099511a56a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5 -3.8)
+		(end -5 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44da75e0-09c3-450a-a099-d3fd4df0acfb")
+	)
+	(fp_line
+		(start 9.7 -3.8)
+		(end 9.7 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56863660-8f03-4d10-8dc6-a6467fd458d9")
+	)
+	(fp_rect
+		(start -5.25 -7.25)
+		(end 9.95 7.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "378084db-aad5-4b90-ab4c-03e5c0eca765")
+	)
+	(fp_rect
+		(start -5 -4.5)
+		(end 9.7 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e36b9bfd-56d3-4d8d-af0a-eaa43b75c961")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "71424b17-446d-47bd-883f-48b003f9d684")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.5 0)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8f38271f-19d8-48fa-a0ed-0291ea52ef08")
+	)
+	(pad "1" smd rect
+		(at 0 -5.5)
+		(size 2.2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6c7e3596-7a2a-465a-9a35-185e2aa73740")
+	)
+	(pad "1" smd rect
+		(at 6.2 -5.5)
+		(size 2.2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b696846c-02a2-4597-ae98-b591a222d516")
+	)
+	(pad "2" smd rect
+		(at 0 5.5)
+		(size 2.2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7c010327-2d12-4da8-a340-8a7e05a4875f")
+	)
+	(pad "3" smd rect
+		(at 4.5 5.5)
+		(size 2.2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "40f9d7f8-31cf-4b33-b2a2-0c23a302e034")
+	)
+	(embedded_fonts no)
+)

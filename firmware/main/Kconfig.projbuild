@@ -1,0 +1,36 @@
+menu "ReAir"
+    config REAIR_BUTTON_GPIO
+        int "Button GPIO"
+        range 0 48
+        default 0
+        help
+            GPIO of the on-board button, active low with internal pull-up.
+            Set per target in sdkconfig.defaults.<target>: this pin is also a
+            strapping pin, so the board's BOOT button is used on dev boards.
+
+    config REAIR_FAN_PWM_GPIO
+        int "Fan PWM GPIO (-1: no fan)"
+        range -1 48
+        default -1
+        help
+            GPIO driving the N-channel MOSFET that pulls the fan PWM line low
+            (ADR 0005). The output is inverted in firmware to compensate.
+
+    config REAIR_LED_GPIO
+        int "Status LED GPIO (-1: no LED)"
+        range -1 48
+        default -1
+        help
+            Active-low status LED (ADR 0006): anode to 3.3V through a resistor,
+            cathode to this pin. On ESP32-C3 this is GPIO8, a strapping pin that
+            must stay high at reset.
+
+    config REAIR_OTA_SELFTEST_TIMEOUT_S
+        int "OTA self test timeout (seconds)"
+        range 10 600
+        default 60
+        help
+            After an OTA update the new firmware must pass the hardware self
+            test (ADR 0007) within this time, otherwise the bootloader rolls
+            back to the previous firmware.
+endmenu
